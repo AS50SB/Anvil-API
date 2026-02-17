@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "anvil_api",
+  "version": "1.1.0",
+  "name": "Anvil API",
+  "description": "Customize anvil repair recipes through datapacks",
+  "authors": [
+    "E&B",
+    "Deepseek"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/as50sb/anvil-api"
+  },
+  "license": "MIT",
+  "icon": "assets/anvil_api/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eab.api.AnvilAPIMod"
+    ]
+  },
+  "mixins": [
+    "anvil_api.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  }
+}
