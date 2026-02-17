@@ -13,7 +13,7 @@ mod包名为eab.api
 mod曾用名anvil-custom-repair  
 代码由Deepseek编写  
 json示例：  
-{
+{  
   "item": "minecraft:diamond_sword",//物品  
   "repair_material": "minecraft:oak_log",//用于修复上方物品的物品  
   "repair_amount": 100,//修复的耐久  
