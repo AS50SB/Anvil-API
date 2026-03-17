@@ -1,5 +1,5 @@
 # Anvil-API  
-<img width="156" height="77" alt="image" src="https://github.com/user-attachments/assets/36f8a490-48f4-416f-acfa-ad81d5ca6f73" />请在左上角选择分支版本查看对应mod版本的源代码  
+<img width="156" height="77" alt="image" src="https://github.com/user-attachments/assets/36f8a490-48f4-416f-acfa-ad81d5ca6f73" />  请在左上角选择分支版本查看对应mod版本的源代码（如图）  
 ---  
 
 Anvil-API允许使用数据包自定义铁砧修复配方，可在Realease里找到示例数据包，修改其中的json就可以修复物品了  
@@ -22,4 +22,5 @@ json示例：
   "material_cost": 1,//每次消耗多少材料  
   "experience_cost": 5//经验扣除  
 }  
-注：注释仅为介绍方法，实际JSON不允许注释，请将//后面的内容删除
+注：注释仅为介绍方法，实际JSON不允许注释，请将//后面的内容删除  
+Forge1.20.1、NeoForge/Fabric1.21.1也会支持，如果不写游戏版本和加载器只写模组版本的分支为1.20.1Fabric
