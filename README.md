@@ -26,5 +26,5 @@ json示例：
   "experience_cost": 5//经验扣除  
 }  
 注：注释仅为介绍方法，实际JSON不允许注释，请将//后面的内容删除  
-NeoForge/Fabric1.21.1也会支持，如果不写游戏版本和加载器只写模组版本的分支为1.20.1Fabric
+NeoForge/Fabric1.21.1也会支持，如果不写游戏版本和加载器只写模组版本的分支为1.20.1Fabric  
 1.21.1的Fabric已支持
