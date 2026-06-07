@@ -1,32 +1,36 @@
 {
-  "schemaVersion": 1,
-  "id": "anvil_api",
-  "version": "1.2.0",
-  "name": "Anvil API",
-  "description": "Customize anvil repair recipes through datapacks",
-  "authors": [
-    "E&B",
-    "Deepseek"
-  ],
-  "contact": {
-    "homepage": "https://NOHOMEPAGE.com/",
-    "sources": "https://github.com/as50sb/anvil-api"
-  },
-  "license": "MIT",
-  "icon": "assets/anvil_api/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "eab.api.AnvilAPIMod"
-    ]
-  },
-  "mixins": [
-    "anvil_api.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
-    "minecraft": "${minecraft_version}",
-    "java": ">=17"
-  }
+	"schemaVersion": 1,
+	"id": "anvil_api",
+	"version": "${version}",
+	"name": "Anvil API",
+	"description": "Custom anvil recipes!",
+	"authors": [
+		"E&B",
+		"Deepseek"
+	],
+	"contact": {
+		"homepage": "https://www.mcmod.cn/class/25452.html",
+		"sources": "https://github.com/AS50SB/Anvil-API"
+	},
+	"license": "MIT",
+	"icon": "assets/anvil_api/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"eab.anvilapi.AnvilApiMod"
+		],
+    		"client": [
+      			"eab.anvilapi.client.AnvilApiClient"
+    		]
+	},
+	"mixins": [
+		"anvil_api.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cloth-config": ">=15.0.0"
+	}
 }
