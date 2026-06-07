@@ -15,7 +15,7 @@ Anvil-API以MIT许可证开源
       Fabric API
       Minecraft(1.20.1)  
 mod包名为eab.api  
-mod曾用名anvil-custom-repair  
+mod曾用名anvil-custom-repair 和 custom-anvil-repair  
 代码由Deepseek编写  
 json示例：  
 {  
