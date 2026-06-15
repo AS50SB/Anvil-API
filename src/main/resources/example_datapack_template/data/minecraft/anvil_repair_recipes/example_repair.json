@@ -1,0 +1,7 @@
+{
+  "item": "minecraft:mace",
+  "repair_material": "minecraft:dragon_egg",
+  "repair_amount": "250",
+  "material_cost": 1,
+  "experience_cost": 2
+}

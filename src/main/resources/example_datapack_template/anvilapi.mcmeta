@@ -1,0 +1,13 @@
+{
+  "anvil_recipes_pack": {
+    "pack_name": "Example Anvil Pack",
+    "pack_version": "1.0.0",
+    "anvil_api_format": 101,
+    "authors": [
+        "Me!"
+    ]
+  },
+  "depends": {
+    "anvil_api": "*"
+  }
+}

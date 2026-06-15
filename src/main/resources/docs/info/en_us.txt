@@ -1,0 +1,12 @@
+&6&l Anvil API
+
+&The 7 Anvil API allows packet creators to define anvil repair recipes through JSON files.
+&B can use/invilapi GUI to manage recipes.
+
+&Warning: This module is in its early stages. If you are downloading an unstable version
+Possible bugs may occur due to the author's immature module development technology, using AI to write code. We apologize for any errors.
+&The C&L mod has never been tested on any server or multiplayer mode, and the author only tested it in single player mode without adding any other items. If any bugs occur, please report them to Github Issues.
+
+&7 Anvil API is an open-source project that you can access through http://github.com/AS50SB/Anvil-API To view the source code (please select the corresponding branch of the source code)
+
+&If any unauthorized personnel cause damage to your property/server or computer/server poisoning, the mod author shall not be held responsible!!! If you agree with the above content, please click OK; If you do not agree, please uninstall this mod!!!
